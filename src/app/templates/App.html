@@ -1,0 +1,24 @@
+<div>
+    <div class='title-container'>
+        <h1>
+            <span class='title'>UEN</span>
+            <a data-dojo-attach-point='version' class='version' href='ChangeLog.html'></a>
+        </h1>
+        <img src="app/resources/agrc_logo.jpg" alt="agrc logo">
+    </div>
+    <div data-dojo-attach-point='centerContainer'
+        class='center-container container-with-border'>
+        <div data-dojo-attach-point='mapDiv'></div>
+        <select data-dojo-attach-point='speedSelect' class='speed-select'
+            data-dojo-attach-event="change: onChange">
+            <option value="0">All Speeds</option>
+            <option value="1-6">&gt;= 1.5 mbps &lt; 10 mbps</option>
+            <option value="7">&gt;= 10 mbps &lt; 25 mbps</option>
+            <option value="8">&gt;= 25 mbps &lt; 50 mbps</option>
+            <option value="9">&gt;= 50 mbps &lt; 100 mbps</option>
+            <option value="10">&gt;= 100 mbps &lt; 1 gbps</option>
+            <option value="11">&gt;= 1 gbps &lt; 10 gbps</option>
+            <option value="12">&gt;= 10 gbps</option>
+        </select>
+    </div>
+</div>

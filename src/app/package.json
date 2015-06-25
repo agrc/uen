@@ -1,0 +1,8 @@
+{
+    "name": "UEN.app",
+    "version": "0.0.0",
+    "main": "main",
+    "description": "UEN",
+    "homepage": "https://github.com/agrc/UEN",
+    "dojoBuild": "app.profile.js"
+}
